@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](images/ALİ%20PHOTO.jpg){fig-align="center"}
+![](images/Ali photo.jpg){fig-align="center"}
 
 # Education
 
