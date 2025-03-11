@@ -10,6 +10,22 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) **Conversations on Data Science and Industrial Engineering - Mustafa Baydoğan & Erdi Daşdemir**
+
+In this talk, Assoc. Prof. Mustafa Baydoğan, a faculty member of the Department of Industrial Engineering at Boğaziçi University and the founder of Alg Foli Software and Consulting Incorporated Company, discussed various topics on data science, machine learning, optimization and industrial engineering applications. He talked about his career background and academic work, focusing on data analytics, prediction methods and decision support systems.
+
+At the beginning of the talk, the problem solving process, which is one of the main objectives of industrial engineering, was discussed. It was stated that the problems faced by industrial engineers are mostly solved by optimization and data analytics, and techniques such as mathematical modeling, simulation and probabilistic methods are used for this. It is emphasized that the disciplines of data science and industrial engineering are increasingly intertwined, so that large-scale problems can be addressed with more effective solutions.
+
+Next, the focus is on forecasting and optimization techniques. Topics such as time series forecasting, machine learning and data mining are discussed and how they solve problems such as demand forecasting and inventory management, especially in the retail sector. Traditional forecasting methods and deep learning-based models are compared and the advantages of machine learning are highlighted. It is stated that the concept of explainable AI is gaining more and more importance in terms of transparency in decision support systems.
+
+The talk also detailed how decision support systems are used in the logistics and energy sectors. In particular, the forecasting studies carried out to ensure the balance between production and consumption in the electricity market and the economic losses that can be caused by incorrect forecasts in the sector were discussed. The role of machine learning in energy forecasting models and the necessity of developing algorithms that minimize error margins were emphasized.
+
+Deep learning and the processing of unstructured data are also discussed. Traditional machine learning methods and deep learning models were compared and it was emphasized that deep learning is more effective on unstructured data such as image processing and text analysis. However, it was stated that these models have some difficulties in terms of interpretability and that explainable models are more preferred in decision-making processes in the business world.
+
+There have also been discussions on how machine learning techniques can be integrated in optimization problems. Especially in complex optimization problems such as integer programming, it was stated that optimization processes can be accelerated by using the knowledge gained from past solutions. This approach is being actively explored by large-scale logistics companies to make their operations more efficient.
+
+Reinforcement learning methods were also an important part of the talk. How reinforcement learning is used in product ranking algorithms in the online retail industry and the shortcomings of traditional ranking methods were discussed. In addition, how to deal with data bias problems and challenges in algorithmic learning were discussed.
+
+Finally, the talk assessed the convergence of data science and optimization and highlighted how academic research can contribute to industrial applications. Explainable artificial intelligence, data quality and robust forecasting techniques are expected to gain more importance in the future. It was also emphasized that those who want to specialize in the field of data science should not be satisfied with theoretical knowledge alone, but should gain practical experience in different sectors.
 
 ## (b)
