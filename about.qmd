@@ -31,7 +31,7 @@ sidebar: false
 
 # Competencies
 
-R, Quarto, Git, Python, SQL, SPSS, SAP, Microsoft Office, Industrial Engineering.
+R, Quarto, Git, Python, SQL, SPSS, SAP, Microsoft Office, Industrial Engineering, Management Information Systems.
 
 # Hobbies
 
