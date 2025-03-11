@@ -2,7 +2,7 @@
 title: "Welcome to My Analytics Lab"
 ---
 
-Hello!! My name is Ali Burak Akbulut.
+Hello!! My name is Ali Burak AKBULUT.
 
 This is my personal webpage.
 
