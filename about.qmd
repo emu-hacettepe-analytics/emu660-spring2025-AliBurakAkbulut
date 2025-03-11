@@ -3,38 +3,36 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/ALİ%20PHOTO.jpg){fig-align="center"}
 
 # Education
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Gazi University, Turkey, 2010 - 2014.
+-   M.S., Management Information Systems, Gazi University, Turkey, 2021 - 2024.
+-   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 2024 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Enerjisa, Expert, 2015-2018.
 
-2.  Firm yyy, position yyy, year yyy
+2.  Turkish Coast Guard, Industrial Engineer, 2018-2020.
 
-## Internships
-
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+3.  Information Technologies and Communication Authority, ICT Expert, 2020-ongoing.
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+-   Master Thesis: A decision support system model for selecting the most appropriate wireless technologies for post-earthquake communication continuity, Gazi University, Management Information Systems, 2024.
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  AKBULUT, A., ÇETİNYOKUŞ, T., & ÇALIŞKAN, E. Mathematical Model Driven Decision Support System Proposal for Selecting Wireless Technologies After a Natural Disaster.
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, SQL, SPSS, SAP, Microsoft Office, Industrial Engineering.
 
 # Hobbies
+
+Hiking, Traveling and Conducting Research.
