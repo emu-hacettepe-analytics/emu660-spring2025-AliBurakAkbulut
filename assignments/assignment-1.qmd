@@ -31,6 +31,7 @@ Finally, the talk assessed the convergence of data science and optimization and 
 ## (b)
 
 ```{r}
+
 # mtcars veri setini yükleme
 data(mtcars)
 
@@ -66,5 +67,34 @@ compute_stats <- function(x) {
 }
 # mtcars veri setinin bir sütunu için fonksiyonu test etme
 compute_stats(mtcars$mpg)
+
+# Döngü Kullanarak Fonksiyonu Uygulama
+
+for (col_name in colnames(mtcars)) {
+  column_data <- mtcars[[col_name]]  
+  
+  if (!is.numeric(column_data)) next  
+  
+  stats_result <- compute_stats(column_data)
+  
+  cat("\nİstatistikler -", col_name, ":\n")  
+  print(stats_result)  
+}
+
+# mtcars veri setindeki tüm sayısal sütunlara compute_stats fonksiyonunu uygula
+
+stats_sapply <- sapply(mtcars, function(col) {
+  if (is.numeric(col)) compute_stats(col) else NULL
+})
+
+# Sonuçları ekrana yazdır
+print(stats_sapply)
+
+```
+
+## (c)
+
+```{r}
+
 
 ```
