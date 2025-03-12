@@ -5,7 +5,7 @@ title: "Assignment 1"
 # Assignment 1
 
 ```{r}
-1 + 1
+
 ```
 
 My first assignment has two parts.
@@ -29,3 +29,42 @@ Reinforcement learning methods were also an important part of the talk. How rein
 Finally, the talk assessed the convergence of data science and optimization and highlighted how academic research can contribute to industrial applications. Explainable artificial intelligence, data quality and robust forecasting techniques are expected to gain more importance in the future. It was also emphasized that those who want to specialize in the field of data science should not be satisfied with theoretical knowledge alone, but should gain practical experience in different sectors.
 
 ## (b)
+
+```{r}
+# mtcars veri setini yükleme
+data(mtcars)
+
+# compute_stats fonksiyonunu tanımlama
+compute_stats <- function(x) {
+  # Sayısal olmayan veya boş vektör kontrolü
+  if (!is.numeric(x)) {
+    stop("Girdi sayısal bir vektör olmalıdır")
+  }
+  if (length(x) == 0) {
+    stop("Girdi vektörü boş olamaz")
+  }
+  
+  # İstenen istatistikleri hesaplama
+  mean_val <- mean(x, na.rm = TRUE)
+  median_val <- median(x, na.rm = TRUE)
+  variance_val <- var(x, na.rm = TRUE)
+  iqr_val <- IQR(x, na.rm = TRUE)
+  min_val <- min(x, na.rm = TRUE)
+  max_val <- max(x, na.rm = TRUE)
+  
+  # Sonuçları isimlendirilmiş bir liste olarak döndürme
+  result <- list(
+    mean = mean_val,
+    median = median_val,
+    variance = variance_val,
+    IQR = iqr_val,
+    minimum = min_val,
+    maximum = max_val
+  )
+  
+  return(result)
+}
+# mtcars veri setinin bir sütunu için fonksiyonu test etme
+compute_stats(mtcars$mpg)
+
+```
