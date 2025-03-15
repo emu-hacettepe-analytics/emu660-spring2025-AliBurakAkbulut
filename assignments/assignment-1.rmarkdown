@@ -2,11 +2,17 @@
 title: "Assignment 1"
 ---
 
+
+
 # Assignment 1
+
+
 
 ```{r}
 
 ```
+
+
 
 My first assignment has two parts.
 
@@ -29,6 +35,8 @@ Reinforcement learning methods were also an important part of the talk. How rein
 Finally, the talk assessed the convergence of data science and optimization and highlighted how academic research can contribute to industrial applications. Explainable artificial intelligence, data quality and robust forecasting techniques are expected to gain more importance in the future. It was also emphasized that those who want to specialize in the field of data science should not be satisfied with theoretical knowledge alone, but should gain practical experience in different sectors.
 
 ## (b)
+
+
 
 ```{r}
 
@@ -92,7 +100,11 @@ print(stats_sapply)
 
 ```
 
+
+
 ## (c)
+
+
 
 ```{r}
 
@@ -141,3 +153,4 @@ print("- Rastgele değerle doldurma yöntemi, veri dağılımını değiştirebi
 print("- **Eğer veri normal dağılıma sahipse, medyan ile doldurma yöntemi genellikle daha güvenilir bir seçimdir.**")
 
 ```
+
