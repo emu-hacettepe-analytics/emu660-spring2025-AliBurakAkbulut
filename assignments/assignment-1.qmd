@@ -134,6 +134,14 @@ print(paste("Medyan ile Doldurulmuş Veri - Standart Sapma:", sd_median))
 print(paste("Rastgele Değer ile Doldurulmuş Veri - Ortalama:", mean_random))
 print(paste("Rastgele Değer ile Doldurulmuş Veri - Standart Sapma:", sd_random))
 
+#**Comparison of Results**
+
+#|                                  | Mean  | Standard Deviation |
+#|----------------------------------|-------|--------------------|
+#| Before Handling NAs              | 2.302 | 1.223              |
+#| Replacing NAs with Median        | 2.258 | 1.136              |
+#| Replacing NAs with Random Values | 2.304 | 1.223              |
+
 # Sonuçları Yorumlama
 print("\n Sonuç Yorumları:")
 print("- Medyan ile doldurulan veri seti, ortalamayı büyük ölçüde koruyabilir.")
