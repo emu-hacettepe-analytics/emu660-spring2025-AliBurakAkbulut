@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assignment 1 – [Student xxxx]’s Analytics Lab</title>
+<title>Assignment 1 – Ali Burak Akbulut’s Analytics Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">[Student xxxx]’s Analytics Lab</span>
+    <span class="navbar-title">Ali Burak Akbulut’s Analytics Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -573,464 +573,126 @@ median   0         0         4         2
 variance 0.2540323 0.2489919 0.5443548 2.608871
 IQR      1         1         1         2       
 minimum  0         0         3         1       
-maximum  1         1         5         8  
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>statistics_apply <span class="ot">&lt;-</span> <span class="fu">apply</span>(mtcars, <span class="at">MARGIN =</span> <span class="dv">2</span>, compute_stats)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Applying compute_stats Using apply()"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "Applying compute_stats Using apply()"</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(statistics_apply)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>$mpg
-$mpg$mean
-[1] 20.09062
-
-$mpg$median
-[1] 19.2
-
-$mpg$variance
-[1] 36.3241
-
-$mpg$IQR
-[1] 7.375
-
-$mpg$min
-[1] 10.4
-
-$mpg$max
-[1] 33.9
-
-
-$cyl
-$cyl$mean
-[1] 6.1875
-
-$cyl$median
-[1] 6
-
-$cyl$variance
-[1] 3.189516
-
-$cyl$IQR
-[1] 4
-
-$cyl$min
-[1] 4
-
-$cyl$max
-[1] 8
-
-
-$disp
-$disp$mean
-[1] 230.7219
-
-$disp$median
-[1] 196.3
-
-$disp$variance
-[1] 15360.8
-
-$disp$IQR
-[1] 205.175
-
-$disp$min
-[1] 71.1
-
-$disp$max
-[1] 472
-
-
-$hp
-$hp$mean
-[1] 146.6875
-
-$hp$median
-[1] 123
-
-$hp$variance
-[1] 4700.867
-
-$hp$IQR
-[1] 83.5
-
-$hp$min
-[1] 52
-
-$hp$max
-[1] 335
-
-
-$drat
-$drat$mean
-[1] 3.596563
-
-$drat$median
-[1] 3.695
-
-$drat$variance
-[1] 0.2858814
-
-$drat$IQR
-[1] 0.84
-
-$drat$min
-[1] 2.76
-
-$drat$max
-[1] 4.93
-
-
-$wt
-$wt$mean
-[1] 3.21725
-
-$wt$median
-[1] 3.325
-
-$wt$variance
-[1] 0.957379
-
-$wt$IQR
-[1] 1.02875
-
-$wt$min
-[1] 1.513
-
-$wt$max
-[1] 5.424
-
-
-$qsec
-$qsec$mean
-[1] 17.84875
-
-$qsec$median
-[1] 17.71
-
-$qsec$variance
-[1] 3.193166
-
-$qsec$IQR
-[1] 2.0075
-
-$qsec$min
-[1] 14.5
-
-$qsec$max
-[1] 22.9
-
-
-$vs
-$vs$mean
-[1] 0.4375
-
-$vs$median
-[1] 0
-
-$vs$variance
-[1] 0.2540323
-
-$vs$IQR
-[1] 1
-
-$vs$min
-[1] 0
-
-$vs$max
-[1] 1
-
-
-$am
-$am$mean
-[1] 0.40625
-
-$am$median
-[1] 0
-
-$am$variance
-[1] 0.2489919
-
-$am$IQR
-[1] 1
-
-$am$min
-[1] 0
-
-$am$max
-[1] 1
-
-
-$gear
-$gear$mean
-[1] 3.6875
-
-$gear$median
-[1] 4
-
-$gear$variance
-[1] 0.5443548
-
-$gear$IQR
-[1] 1
-
-$gear$min
-[1] 3
-
-$gear$max
-[1] 5
-
-
-$carb
-$carb$mean
-[1] 2.8125
-
-$carb$median
-[1] 2
-
-$carb$variance
-[1] 2.608871
-
-$carb$IQR
-[1] 2
-
-$carb$min
-[1] 1
-
-$carb$max
-[1] 8</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>statistics_apply <span class="ot">&lt;-</span> <span class="fu">apply</span>(mtcars, <span class="at">MARGIN =</span> <span class="dv">2</span>, compute_stats)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Applying compute_stats Using apply()"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "Applying compute_stats Using apply()"</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(statistics_apply)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>$mpg
-$mpg$mean
-[1] 20.09062
-
-$mpg$median
-[1] 19.2
-
-$mpg$variance
-[1] 36.3241
-
-$mpg$IQR
-[1] 7.375
-
-$mpg$min
-[1] 10.4
-
-$mpg$max
-[1] 33.9
-
-
-$cyl
-$cyl$mean
-[1] 6.1875
-
-$cyl$median
-[1] 6
-
-$cyl$variance
-[1] 3.189516
-
-$cyl$IQR
-[1] 4
-
-$cyl$min
-[1] 4
-
-$cyl$max
-[1] 8
-
-
-$disp
-$disp$mean
-[1] 230.7219
-
-$disp$median
-[1] 196.3
-
-$disp$variance
-[1] 15360.8
-
-$disp$IQR
-[1] 205.175
-
-$disp$min
-[1] 71.1
-
-$disp$max
-[1] 472
-
-
-$hp
-$hp$mean
-[1] 146.6875
-
-$hp$median
-[1] 123
-
-$hp$variance
-[1] 4700.867
-
-$hp$IQR
-[1] 83.5
-
-$hp$min
-[1] 52
-
-$hp$max
-[1] 335
-
-
-$drat
-$drat$mean
-[1] 3.596563
-
-$drat$median
-[1] 3.695
-
-$drat$variance
-[1] 0.2858814
-
-$drat$IQR
-[1] 0.84
-
-$drat$min
-[1] 2.76
-
-$drat$max
-[1] 4.93
-
-
-$wt
-$wt$mean
-[1] 3.21725
-
-$wt$median
-[1] 3.325
-
-$wt$variance
-[1] 0.957379
-
-$wt$IQR
-[1] 1.02875
-
-$wt$min
-[1] 1.513
-
-$wt$max
-[1] 5.424
-
-
-$qsec
-$qsec$mean
-[1] 17.84875
-
-$qsec$median
-[1] 17.71
-
-$qsec$variance
-[1] 3.193166
-
-$qsec$IQR
-[1] 2.0075
-
-$qsec$min
-[1] 14.5
-
-$qsec$max
-[1] 22.9
-
-
-$vs
-$vs$mean
-[1] 0.4375
-
-$vs$median
-[1] 0
-
-$vs$variance
-[1] 0.2540323
-
-$vs$IQR
-[1] 1
-
-$vs$min
-[1] 0
-
-$vs$max
-[1] 1
-
-
-$am
-$am$mean
-[1] 0.40625
-
-$am$median
-[1] 0
-
-$am$variance
-[1] 0.2489919
-
-$am$IQR
-[1] 1
-
-$am$min
-[1] 0
-
-$am$max
-[1] 1
-
-
-$gear
-$gear$mean
-[1] 3.6875
-
-$gear$median
-[1] 4
-
-$gear$variance
-[1] 0.5443548
-
-$gear$IQR
-[1] 1
-
-$gear$min
-[1] 3
-
-$gear$max
-[1] 5
-
-
-$carb
-$carb$mean
-[1] 2.8125
-
-$carb$median
-[1] 2
-
-$carb$variance
-[1] 2.608871
-
-$carb$IQR
-[1] 2
-
-$carb$min
-[1] 1
-
-$carb$max
-[1] 8</code></pre>
+maximum  1         1         5         8       </code></pre>
 </div>
 </div>
 </section>
 <section id="c" class="level2">
 <h2 class="anchored" data-anchor-id="c">(c)</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gerekli paketi yükleyeme</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("dslabs")</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dslabs' was built under R version 4.4.3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(na_example)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(na_example)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   [1]  2  1  3  2  1  3  1  4  3  2  2 NA  2  2  1  4 NA  1  1  2  1  2  2  1
+  [25]  2  5 NA  2  2  3  1  2  4  1  1  1  4  5  2  3  4  1  2  4  1  1  2  1
+  [49]  5 NA NA NA  1  1  5  1  3  1 NA  4  4  7  3  2 NA NA  1 NA  4  1  2  2
+  [73]  3  2  1  2  2  4  3  4  2  3  1  3  2  1  1  1  3  1 NA  3  1  2  2  1
+  [97]  2  2  1  1  4  1  1  2  3  3  2  2  3  3  3  4  1  1  1  2 NA  4  3  4
+ [121]  3  1  2  1 NA NA NA NA  1  5  1  2  1  3  5  3  2  2 NA NA NA NA  3  5
+ [145]  3  1  1  4  2  4  3  3 NA  2  3  2  6 NA  1  1  2  2  1  3  1  1  5 NA
+ [169] NA  2  4 NA  2  5  1  4  3  3 NA  4  3  1  4  1  1  3  1  1 NA NA  3  5
+ [193]  2  2  2  3  1  2  2  3  2  1 NA  2 NA  1 NA NA  2  1  1 NA  3 NA  1  2
+ [217]  2  1  3  2  2  1  1  2  3  1  1  1  4  3  4  2  2  1  4  1 NA  5  1  4
+ [241] NA  3 NA NA  1  1  5  2  3  3  2  4 NA  3  2  5 NA  2  3  4  6  2  2  2
+ [265] NA  2 NA  2 NA  3  3  2  2  4  3  1  4  2 NA  2  4 NA  6  2  3  1 NA  2
+ [289]  2 NA  1  1  3  2  3  3  1 NA  1  4  2  1  1  3  2  1  2  3  1 NA  2  3
+ [313]  3  2  1  2  3  5  5  1  2  3  3  1 NA NA  1  2  4 NA  2  1  1  1  3  2
+ [337]  1  1  3  4 NA  1  2  1  1  3  3 NA  1  1  3  5  3  2  3  4  1  4  3  1
+ [361] NA  2  1  2  2  1  2  2  6  1  2  4  5 NA  3  4  2  1  1  4  2  1  1  1
+ [385]  1  2  1  4  4  1  3 NA  3  3 NA  2 NA  1  2  1  1  4  2  1  4  4 NA  1
+ [409]  2 NA  3  2  2  2  1  4  3  6  1  2  3  1  3  2  2  2  1  1  3  2  1  1
+ [433]  1  3  2  2 NA  4  4  4  1  1 NA  4  3 NA  1  3  1  3  2  4  2  2  2  3
+ [457]  2  1  4  3 NA  1  4  3  1  3  2 NA  3 NA  1  3  1  4  1  1  1  2  4  3
+ [481]  1  2  2  2  3  2  3  1  1 NA  3  2  1  1  2 NA  2  2  2  3  3  1  1  2
+ [505] NA  1  2  1  1  3  3  1  3  1  1  1  1  1  2  5  1  1  2  2  1  1 NA  1
+ [529]  4  1  2  4  1  3  2 NA  1  1 NA  2  1  1  4  2  3  3  1  5  3  1  1  2
+ [553] NA  1  1  3  1  3  2  4 NA  2  3  2  1  2  1  1  1  2  2  3  1  5  2 NA
+ [577]  2 NA  3  2  2  2  1  5  3  2  3  1 NA  3  1  2  2  2  1  2  2  4 NA  6
+ [601]  1  2 NA  1  1  2  2  3 NA  3  2  3  3  4  2 NA  2 NA  4 NA  1  1  2  2
+ [625]  3  1  1  1  3 NA  2  5 NA  7  1 NA  4  3  3  1 NA  1  1  1  1  3  2  4
+ [649]  2  2  3 NA NA  1  4  3  2  2  2  3  2  4  2  2  4 NA NA NA  6  3  3  1
+ [673]  4  4  2  1 NA  1  6 NA  3  3  2  1  1  6 NA  1  5  1 NA  2  6  2 NA  4
+ [697]  1  3  1  2 NA  1  1  3  1  2  4  2  1  3  2  4  3  2  2  1  1  5  6  4
+ [721]  2  2  2  2  4 NA  1  2  2  2  2  4  5 NA NA NA  4  3  3  3  2  4  2  4
+ [745] NA NA NA NA  2  1 NA  2  4  3  2 NA  2  3  1  3  4 NA  1  2  1  2 NA  3
+ [769]  1  2  1  2  1  2  1  2  2  2  2  1  1  3  3  1  3  4  3 NA NA  4  2  3
+ [793]  2  1  3  2  4  2  2  3  1  2  4  3  3  4 NA  1  4  2  1  1  1  3  1  5
+ [817]  2  2  4  2 NA  1  3  1  2 NA  1  2  1  2  1 NA  1  3  2  3  2 NA  2  1
+ [841]  4  2 NA NA NA  2  4  2 NA NA  3  1 NA  5  5  2  2  2 NA  2  1  3  1  3
+ [865]  2  4  2  4 NA  4  1  2  3  2  3  3  2  3  2  2  2  1  3  2  4  2 NA  3
+ [889]  3  2  2 NA NA  3  2  1  2  4  1  1  1  1  4  3  2 NA  3  2 NA  1 NA  3
+ [913]  2  1  1  1  2 NA  2  2  3  3  2 NA NA  4  5  2  2  2  1  2  3  1  3  3
+ [937]  4  3 NA  1  1  1 NA  4  3  5  1  1  2 NA  2  2  2  2  5  2  2  3  1  2
+ [961]  3 NA  1  2 NA NA  2 NA  3  1  1  2  5  3  5  1  1  4 NA  2  1  3  1  1
+ [985]  2  4  3  3  3 NA  1  1  2  2  1  1  2  2 NA  2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># NA değerlerinin toplam sayısını ve konumlarını belirleme</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>na_count <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(na_example))  <span class="co"># Toplam NA sayısı</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>na_positions <span class="ot">&lt;-</span> <span class="fu">which</span>(<span class="fu">is.na</span>(na_example))  <span class="co"># NA'ların indeks konumları</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Toplam NA sayısı:"</span>, na_count, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Toplam NA sayısı: 145 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"NA'ların indeks konumları:"</span>, na_positions, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NA'ların indeks konumları: 12 17 27 50 51 52 59 65 66 68 91 117 125 126 127 128 139 140 141 142 153 158 168 169 172 179 189 190 203 205 207 208 212 214 237 241 243 244 253 257 265 267 269 279 282 287 290 298 310 325 326 330 341 348 361 374 392 395 397 407 410 437 443 446 461 468 470 490 496 505 527 536 539 553 561 576 578 589 599 603 609 616 618 620 630 633 636 641 652 653 666 667 668 677 680 687 691 695 701 726 734 735 736 745 746 747 748 751 756 762 767 788 789 807 821 826 832 838 843 844 845 849 850 853 859 869 887 892 893 906 909 911 918 924 925 939 943 950 962 965 966 968 979 990 999 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># NA'ları yok sayarak ortalama ve standart sapma hesaplama</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>mean_original <span class="ot">&lt;-</span> <span class="fu">mean</span>(na_example, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>sd_original <span class="ot">&lt;-</span> <span class="fu">sd</span>(na_example, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Orijinal Veri (NA'sız) - Ortalama:"</span>, mean_original, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "\nOrijinal Veri (NA'sız) - Ortalama: 2.30175438596491 \n"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Orijinal Veri (NA'sız) - Standart Sapma:"</span>, sd_original, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Orijinal Veri (NA'sız) - Standart Sapma: 1.22338043224169 \n"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Eksik Verileri Düzeltme - Versiyon 1 (NA'ları Medyan ile Doldurma)</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>na_example_median <span class="ot">&lt;-</span> <span class="fu">replace</span>(na_example, <span class="fu">is.na</span>(na_example), <span class="fu">median</span>(na_example, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Eksik Verileri Düzeltme - Versiyon 2 (NA'ları Rastgele Değer ile Doldurma)</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>na_example_random <span class="ot">&lt;-</span> <span class="fu">replace</span>(na_example, <span class="fu">is.na</span>(na_example), <span class="fu">sample</span>(na_example[<span class="sc">!</span><span class="fu">is.na</span>(na_example)], <span class="fu">sum</span>(<span class="fu">is.na</span>(na_example)), <span class="at">replace =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Yeni veri setlerinin istatistiklerini hesaplama</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>mean_median <span class="ot">&lt;-</span> <span class="fu">mean</span>(na_example_median)</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>sd_median <span class="ot">&lt;-</span> <span class="fu">sd</span>(na_example_median)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>mean_random <span class="ot">&lt;-</span> <span class="fu">mean</span>(na_example_random)</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>sd_random <span class="ot">&lt;-</span> <span class="fu">sd</span>(na_example_random)</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Medyan ile Doldurulmuş Veri - Ortalama:"</span>, mean_median))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Medyan ile Doldurulmuş Veri - Ortalama: 2.258"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Medyan ile Doldurulmuş Veri - Standart Sapma:"</span>, sd_median))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Medyan ile Doldurulmuş Veri - Standart Sapma: 1.13610154771778"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Rastgele Değer ile Doldurulmuş Veri - Ortalama:"</span>, mean_random))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Rastgele Değer ile Doldurulmuş Veri - Ortalama: 2.31"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Rastgele Değer ile Doldurulmuş Veri - Standart Sapma:"</span>, sd_random))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Rastgele Değer ile Doldurulmuş Veri - Standart Sapma: 1.22939473376593"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#**Comparison of Results**</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co">#|                                  | Mean  | Standard Deviation |</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co">#|----------------------------------|-------|--------------------|</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co">#| Before Handling NAs              | 2.302 | 1.223              |</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="co">#| Replacing NAs with Median        | 2.258 | 1.136              |</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="co">#| Replacing NAs with Random Values | 2.304 | 1.223              |</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>

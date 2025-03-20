@@ -97,7 +97,7 @@ print(stats_sapply)
 ```{r}
 
 # Gerekli paketi yükleyeme
-install.packages("dslabs")
+# install.packages("dslabs")
 library(dslabs)
 data(na_example)
 print(na_example)
@@ -142,10 +142,6 @@ print(paste("Rastgele Değer ile Doldurulmuş Veri - Standart Sapma:", sd_random
 #| Replacing NAs with Median        | 2.258 | 1.136              |
 #| Replacing NAs with Random Values | 2.304 | 1.223              |
 
-# Sonuçları Yorumlama
-print("\n Sonuç Yorumları:")
-print("- Medyan ile doldurulan veri seti, ortalamayı büyük ölçüde koruyabilir.")
-print("- Rastgele değerle doldurma yöntemi, veri dağılımını değiştirebilir ve farklı sonuçlar üretebilir.")
-print("- **Eğer veri normal dağılıma sahipse, medyan ile doldurma yöntemi genellikle daha güvenilir bir seçimdir.**")
+
 
 ```
