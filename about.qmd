@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](images/Ali photo.jpg){fig-align="center"}
+![](images/Ali%20photo.jpg){fig-align="center"}
 
 # Education
 
@@ -36,3 +36,7 @@ R, Quarto, Git, Python, SQL, SPSS, SAP, Microsoft Office, Industrial Engineering
 # Hobbies
 
 Hiking, Traveling and Conducting Research.
+
+# Resume
+
+[Ali Burak Akbulut-CV](https://github.com/emu-hacettepe-analytics/emu660-spring2025-AliBurakAkbulut/blob/main/Ali_Burak_AKBULUT_CV.pdf)
