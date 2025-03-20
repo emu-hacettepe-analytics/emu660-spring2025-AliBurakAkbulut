@@ -39,4 +39,4 @@ Hiking, Traveling and Conducting Research.
 
 # Resume
 
-[Ali Burak Akbulut-CV](https://github.com/emu-hacettepe-analytics/emu660-spring2025-AliBurakAkbulut/blob/main/Ali_Burak_AKBULUT_CV.pdf)
+[Ali Burak Akbulut_CV](http://docs/Ali_Burak_AKBULUT_CV.pdf)
