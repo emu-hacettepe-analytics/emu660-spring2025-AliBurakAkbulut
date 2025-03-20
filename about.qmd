@@ -39,4 +39,4 @@ Hiking, Traveling and Conducting Research.
 
 # Resume
 
-[Ali Burak Akbulut_CV](http://docs/Ali_Burak_AKBULUT_CV.pdf)
+[Ali Burak Akbulut-CV](docs/Ali_Burak_AKBULUT_CV.pdf)
