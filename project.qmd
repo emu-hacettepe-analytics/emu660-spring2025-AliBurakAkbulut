@@ -1,8 +1,8 @@
 ---
-title: "An Empirical Analysis of the Effects of Inflation and Exchange Rate Volatility on Brain Drain in Turkey (2021???2023)"
+title: "An Empirical Analysis of Brain Drain in Turkey (2015_2023)"
 ---
 
-Tak??m ??yesi / ??yeleri: 1.Bat??han KONUK - \[N24141171\] 2.Ali Burak AKBULUT - \[N24142785\]
+Takim Uyesi / Uyeleri: 1.Batihan KONUK - \[N24141171\] 2.Ali Burak AKBULUT - \[N24142785\]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
@@ -13,13 +13,13 @@ library(tidyr)
 library(zoo)
 ```
 
-Welcome to our project page for EMU660 ??? Decision Making with Analytics.
+Welcome to our project page for EMU660_Decision Making with Analytics.
 
-This project investigates the impact of inflation and exchange rate fluctuations on the brain drain of highly educated individuals from Turkey between 2021 and 2023.
+This project investigates the impact of inflation and exchange rate fluctuations on the brain drain of highly educated individuals from Turkey between 2015 and 2023.
 
 # 1. Project Overview and Scope
 
-The primary objective of this study is to uncover the impact of high inflation rates and exchange rate fluctuations observed in Turkey between 2021 and 2023 on the emigration tendencies of individuals with higher education qualifications, through the use of statistical and visual analytical techniques. Grounded in indicators that point to a growing trend of emigration among young, highly skilled individuals with career aspirations, this research seeks to examine the economic motivations underlying the migration decisions of this demographic. Within this framework, the study aims to analyze to what extent macroeconomic instability shapes individual migration choices through empirical methods.
+The primary objective of this study is to uncover the impact of high inflation rates and exchange rate fluctuations observed in Turkey on the emigration tendencies of individuals with higher education qualifications, through the use of statistical and visual analytical techniques. Grounded in indicators that point to a growing trend of emigration among young, highly skilled individuals with career aspirations, this research seeks to examine the economic motivations underlying the migration decisions of this demographic. Within this framework, the study aims to analyze to what extent macroeconomic instability shapes individual migration choices through empirical methods.
 
 Rather than limiting the analysis to simple correlations between economic indicators and migration rates, this research seeks to address the multifaceted nature of the brain drain phenomenon. Accordingly, a wide range of demographic, socio-cultural, and academic variables???such as age groups, gender distributions, academic disciplines, graduation cohorts, and destination countries???are incorporated to provide a comprehensive exploration of brain drain dynamics. In doing so, the project transcends narrowly defined causal relationships based solely on economic variables and aims to offer a broader perspective on the structural dimensions of brain drain and its differential impact across population groups.
 
@@ -33,7 +33,7 @@ The datasets utilized in this study are classified into two main categories, in 
 
 The second category consists of brain drain data, capturing the demographic, academic, and geographical characteristics of highly educated individuals who emigrated from Turkey. This comprehensive dataset enables multi-dimensional analysis based on graduation year, gender, field of study, academic major, and destination country.
 
-## 2.1 Economic Indicators (2021???2023)
+## 2.1 Economic Indicators (2021_2023)
 
 The data within this category were obtained from reliable and up-to-date statistics published by the Turkish Statistical Institute (T????K) and the Central Bank of the Republic of Turkey (CBRT). The following variables were included in the analysis:
 
@@ -41,11 +41,11 @@ Annual Inflation Rates: Calculated based on the year-on-year percentage change o
 
 Exchange Rates: Represent the annual average value of the Turkish Lira against the US Dollar.
 
-## 2.2 Brain Drain Data (2015???2023)
+## 2.2 Brain Drain Data (2015_2023)
 
 This dataset, covering emigration movements of individuals with higher education degrees from Turkey, was obtained from the ???Higher Education Brain Drain Statistics??? published by T????K as of 2023. The data were structured to enable detailed analyses across the following dimensions:
 
-Brain drain rates by graduation year (for graduates between 2000 and 2017),
+Brain drain rates by graduation year (for graduates between 2008 and 2017),
 
 Brain drain rates by gender (male/female distribution),
 
